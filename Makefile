@@ -1,10 +1,10 @@
 OUTDIR := out
-SOURCES := $(shell ls *.tex)
-OUT := presentation.pdf
+
+all: out/script.pdf out/presentation.pdf
 
 main: ${OUT}
 
-%.pdf: %.tex
+${OUTDIR}/%.pdf: %.tex
 	latexmk -pdf --output-directory=${OUTDIR} -auxdir=${OUTDIR} $<
 
 clean:
