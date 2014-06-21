@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-147 -70 294 345"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="wikimedia.org-android_logo_black.svg">
+  <metadata
+     id="metadata33">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs31">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4259">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect4261"
+         width="182.36758"
+         height="83.691734"
+         x="-90.868271"
+         y="-40.604431"
+         rx="0"
+         transform="scale(1,-1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4285">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
+         id="rect4287"
+         width="184.56038"
+         height="153.13029"
+         x="-91.997353"
+         y="48.228283"
+         rx="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1879"
+     inkscape:window-height="1058"
+     id="namedview29"
+     showgrid="false"
+     inkscape:zoom="2.7362319"
+     inkscape:cx="53.441736"
+     inkscape:cy="178.55524"
+     inkscape:window-x="41"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Android"
+     style="display:inline">
+    <rect
+       style="fill:#000000"
+       id="rect19-0"
+       x="-91.215416"
+       y="17.573526"
+       width="182"
+       height="183.82733"
+       rx="22"
+       clip-path="url(#clipPath4285)" />
+    <g
+       id="g3917-1"
+       transform="matrix(-0.99402785,0,0,1,0.23391343,-0.42887634)">
+      <rect
+         rx="20.131884"
+         y="142.17029"
+         x="-56.034904"
+         height="125.59385"
+         width="42.381462"
+         id="rect3861-4"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         rx="19.149841"
+         y="45.261459"
+         x="-139.24731"
+         height="125.59385"
+         width="40.314075"
+         id="rect3861-6-5"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         transform="matrix(0.87461971,0.48480962,-0.48480962,0.87461971,0,0)"
+         rx="2.5417149"
+         y="-82.072624"
+         x="17.967255"
+         height="79.119835"
+         width="5.0834298"
+         id="rect3861-1-9"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g3917"
+       transform="translate(2.624928e-6,-0.51684719)">
+      <rect
+         rx="20.131884"
+         y="142.17029"
+         x="-56.034904"
+         height="125.59385"
+         width="42.381462"
+         id="rect3861"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         rx="19.149841"
+         y="45.261459"
+         x="-139.24731"
+         height="125.59385"
+         width="40.314075"
+         id="rect3861-6"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         transform="matrix(0.87461971,0.48480962,-0.48480962,0.87461971,0,0)"
+         rx="2.5417149"
+         y="-82.072624"
+         x="17.967255"
+         height="79.119835"
+         width="5.0834298"
+         id="rect3861-1"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+    </g>
+    <circle
+       transform="translate(0.68289413,-0.47951655)"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:7.19999981;display:inline"
+       id="circle27-2-9"
+       r="4"
+       cx="42"
+       cy="0"
+       sodipodi:cx="42"
+       sodipodi:cy="0"
+       sodipodi:rx="4"
+       sodipodi:ry="4"
+       d="m 46,0 c 0,2.209139 -1.790861,4 -4,4 -2.209139,0 -4,-1.790861 -4,-4 0,-2.209139 1.790861,-4 4,-4 2.209139,0 4,1.790861 4,4 z" />
+    <circle
+       transform="translate(-84.080034,-0.47951655)"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:7.19999981;display:inline"
+       id="circle27-2-4"
+       r="4"
+       cx="42"
+       cy="0"
+       sodipodi:cx="42"
+       sodipodi:cy="0"
+       sodipodi:rx="4"
+       sodipodi:ry="4"
+       d="m 46,0 c 0,2.209139 -1.790861,4 -4,4 -2.209139,0 -4,-1.790861 -4,-4 0,-2.209139 1.790861,-4 4,-4 2.209139,0 4,1.790861 4,4 z" />
+    <ellipse
+       style="fill:#000000"
+       id="ellipse17-3"
+       ry="84"
+       rx="91"
+       cy="41"
+       d="m 91,41 c 0,46.391919 -40.742088,84 -91,84 -50.257912,0 -91,-37.608081 -91,-84 0,-46.391919 40.742088,-84 91,-84 50.257912,0 91,37.608081 91,84 z"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="41"
+       sodipodi:rx="91"
+       sodipodi:ry="84"
+       transform="translate(-0.21541719,0.13178795)"
+       clip-path="url(#clipPath4259)" />
+    <circle
+       transform="translate(0.3114427,0.1694886)"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:7.19999981;display:inline"
+       id="circle27-2-6"
+       r="4"
+       cx="42"
+       cy="0"
+       sodipodi:cx="42"
+       sodipodi:cy="0"
+       sodipodi:rx="4"
+       sodipodi:ry="4"
+       d="m 46,0 c 0,2.209139 -1.790861,4 -4,4 -2.209139,0 -4,-1.790861 -4,-4 0,-2.209139 1.790861,-4 4,-4 2.209139,0 4,1.790861 4,4 z" />
+    <circle
+       transform="translate(-84.111228,-0.19597751)"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:7.19999981;display:inline"
+       id="circle27-2-3"
+       r="4"
+       cx="42"
+       cy="0"
+       sodipodi:cx="42"
+       sodipodi:cy="0"
+       sodipodi:rx="4"
+       sodipodi:ry="4"
+       d="m 46,0 c 0,2.209139 -1.790861,4 -4,4 -2.209139,0 -4,-1.790861 -4,-4 0,-2.209139 1.790861,-4 4,-4 2.209139,0 4,1.790861 4,4 z" />
+  </g>
+</svg>
