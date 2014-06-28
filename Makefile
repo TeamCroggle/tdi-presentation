@@ -4,7 +4,7 @@ all: out/script.pdf out/presentation.pdf
 
 main: ${OUT}
 
-${OUTDIR}/%.pdf: %.tex
+${OUTDIR}/%.pdf: %.tex *.tex
 	latexmk -pdf --output-directory=${OUTDIR} -auxdir=${OUTDIR} $<
 
 clean:
