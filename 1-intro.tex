@@ -32,3 +32,37 @@
 			\end{tabular}
 		\end{center}
 \end{frame}
+
+\begin{frame}{Fressregeln}
+	\begin{center}
+			\begin{tabular}{rcccl}
+				\multicolumn{2}{c}{
+					\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_green}}
+					\tikz[remember picture] \node (a) {\vphantom{X}};
+					\begin{tikzpicture}[remember picture,overlay]
+						\path<2> (a.east) ++(0,1) node[draw,anchor=west,ellipse callout,fill=white!50,opacity=1., callout absolute pointer={(a.mid)}]  {RAWR!};
+					\end{tikzpicture}
+				}
+				& &
+				\multicolumn{2}{c}{
+					\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_yellow}}
+					\tikz[remember picture] \node (b) {\vphantom{X}};
+					\begin{tikzpicture}[remember picture,overlay]
+						\path<2> (b.east) ++(0,1) node[draw,anchor=west,ellipse callout,fill=white!50,opacity=1., callout absolute pointer={(b.mid)}]  {HELP!};
+					\end{tikzpicture}
+				}
+				\\
+				\multicolumn{2}{c}{
+					\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_red}}
+				}
+				& &
+				\multicolumn{2}{c}{
+					\raisebox{-.5\height}{\includegraphics[height=0.75cm]{media/egg_yellow}}
+				}
+				\\
+				\raisebox{-.5\height}{\includegraphics[height=.75cm]{media/egg_green}}
+				&
+				\raisebox{-.5\height}{\includegraphics[height=.75cm]{media/egg_red}}
+			\end{tabular}
+		\end{center}
+\end{frame}
