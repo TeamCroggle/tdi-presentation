@@ -110,7 +110,7 @@
 
 \begin{frame}{Fressregeln}
 	\begin{center}
-		\begin{tabular}{rl}
+		\begin{tabular}{cc}
 			\multicolumn{2}{c}{
 				\tikz[remember picture] \node (a) {\vphantom{X}};
 				\begin{turn}{180}
@@ -122,12 +122,102 @@
 			}
 			\\
 			\multicolumn{2}{c}{
-				\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_red}}
+				\includegraphics[height=1.25cm]{media/alligator_red}
 			}
 			\\
-			\raisebox{-.5\height}{\includegraphics[height=.75cm]{media/egg_green}}
+			\includegraphics[height=.75cm]{media/egg_green}
 			&
-			\raisebox{-.5\height}{\includegraphics[height=.75cm]{media/egg_red}}
+			\includegraphics[height=.75cm]{media/egg_red}
 		\end{tabular}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Fressregeln}
+	\begin{center}
+		\begin{tabular}{cc}
+			\multicolumn{2}{c}{
+				\includegraphics[height=1.25cm]{media/alligator_red}
+			}
+			\\
+			\tikz[remember picture] \node (a) {\includegraphics[height=.75cm]{media/egg_green}};
+			\begin{tikzpicture}[remember picture,overlay]
+				% add align option for multi line text
+				\path (a.south) ++(0,-1) node[draw,anchor=east,ellipse callout,fill=white!50,opacity=1., callout absolute pointer={(a.south)},align=center]  {KRACK!\\[3mm] KRACK!};
+			\end{tikzpicture}
+			&
+			\includegraphics[height=.75cm]{media/egg_red}
+		\end{tabular}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Fressregeln}
+	\begin{center}
+		\begin{tabular}{ccc}
+			\multicolumn{3}{c}{
+				\includegraphics[height=1.25cm]{media/alligator_red}
+			}
+			\\
+			\multicolumn{2}{c}{
+				\includegraphics[height=1.25cm]{media/alligator_yellow}
+				\tikz[remember picture] \node (a) {\vphantom{X}};
+				\begin{tikzpicture}[remember picture,overlay]
+					\path<2> (a.east) ++(0,-1) node[draw,anchor=west,ellipse callout,fill=white!50,opacity=1., callout absolute pointer={(a.mid)}]  {LECKER!};
+				\end{tikzpicture}
+			}
+			&
+			\includegraphics[height=.75cm]{media/egg_red}
+			\\
+			\multicolumn{2}{c}{
+				\includegraphics[height=.75cm]{media/egg_yellow}
+			}
+		\end{tabular}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Fressregeln}
+	\begin{center}
+		\includegraphics[height=1.25cm]{media/alligator_red}
+		\\
+		\includegraphics[height=1.25cm]{media/alligator_yellow}
+		\\
+		\includegraphics[height=.75cm]{media/egg_yellow}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Fressregeln}
+	\begin{center}
+		\includegraphics[height=1.25cm]{media/alligator_red}
+		\\
+		\tikz[remember picture] \node (a) {
+			\begin{turn}{180}
+				\includegraphics[height=1.25cm]{media/alligator_yellow}
+			\end{turn}
+		};
+		\begin{tikzpicture}[remember picture,overlay]
+			\path (a.west) ++(0,-1) node[draw,anchor=east,ellipse callout,fill=white!50,opacity=1., callout absolute pointer={(a.west)}]  {AUTSCH! :(};
+		\end{tikzpicture}
+		\\
+		\includegraphics[height=.75cm]{media/egg_yellow}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Fressregeln}
+	\begin{center}
+		\includegraphics[height=1.25cm]{media/alligator_red}
+		\\
+		\tikz[remember picture] \node (a) {
+			\includegraphics[height=.75cm]{media/egg_yellow}
+		};
+		\begin{tikzpicture}[remember picture,overlay]
+			\path (a.south) ++(0,-1) node[draw,anchor=east,ellipse callout,fill=white!50,opacity=1., callout absolute pointer={(a.south)},align=center]  {KRACK!\\[3mm] KRACK!};
+		\end{tikzpicture}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Ende}
+	\begin{center}
+		\includegraphics[height=1.25cm]{media/alligator_red}
+		\\
+		\includegraphics[height=.75cm]{media/egg_red}
 	\end{center}
 \end{frame}
