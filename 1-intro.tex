@@ -12,7 +12,7 @@
 
 \begin{frame}{Familien}
 	\begin{center}
-		\begin{tabular}{rccl}
+		\begin{tabular}{cccc}
 			\multicolumn{4}{c}{
 				\raisebox{-.5\height}{\includegraphics[height=2cm]{media/alligator_green}}
 			}
@@ -34,8 +34,9 @@
 \end{frame}
 
 \begin{frame}{Fressregeln: Beispiel 1}
+	% raiseboxes are needed when used in combination with \vphantom{X} anchors so they will be veertically in the middle of the graphics
 	\begin{center}
-		\begin{tabular}{rcccl}
+		\begin{tabular}{cccc}
 			\multicolumn{2}{c}{
 				\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_green}}
 				\tikz[remember picture] \node (a) {\vphantom{X}};
@@ -44,21 +45,17 @@
 				\end{tikzpicture}
 			}
 			& &
-			\multicolumn{2}{c}{
-				\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_yellow}}
-				\tikz[remember picture] \node (b) {\vphantom{X}};
-				\begin{tikzpicture}[remember picture,overlay]
-					\path<2> (b.east) ++(0,1) node[draw,anchor=west,ellipse callout,fill=white!50,opacity=1., callout absolute pointer={(b.mid)}]  {HILFE!};
-				\end{tikzpicture}
-			}
+			\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_yellow}}
+			\tikz[remember picture] \node (b) {\vphantom{X}};
+			\begin{tikzpicture}[remember picture,overlay]
+				\path<2> (b.east) ++(0,1) node[draw,anchor=west,ellipse callout,fill=white!50,opacity=1., callout absolute pointer={(b.mid)}]  {HILFE!};
+			\end{tikzpicture}
 			\\
 			\multicolumn{2}{c}{
 				\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_red}}
 			}
 			& &
-			\multicolumn{2}{c}{
-				\raisebox{-.5\height}{\includegraphics[height=0.75cm]{media/egg_yellow}}
-			}
+			\raisebox{-.5\height}{\includegraphics[height=0.75cm]{media/egg_yellow}}
 			\\
 			\raisebox{-.5\height}{\includegraphics[height=.75cm]{media/egg_green}}
 			&
@@ -97,7 +94,7 @@
 			}
 		\end{picture}
 		
-		\begin{tabular}{lccc}
+		\begin{tabular}{cc}
 			\multicolumn{2}{l}{
 				\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_red}}
 			}
@@ -225,7 +222,7 @@
 
 \begin{frame}{Fressregeln: Beispiel 2}
 	\begin{center}
-		\begin{tabular}{rcccl}
+		\begin{tabular}{ccccc}
 			\multicolumn{2}{c}{
 				\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_green}}
 				\tikz[remember picture] \node (a) {\vphantom{X}};
@@ -312,7 +309,7 @@
 
 \begin{frame}{Fressregeln: Beispiel 2}
 	\begin{center}
-		\begin{tabular}{rcccl}
+		\begin{tabular}{ccccc}
 			\multicolumn{2}{c}{
 				\raisebox{-.5\height}{\includegraphics[height=.75cm]{media/egg_green}}
 				\tikz[remember picture] \node (a) {\vphantom{X}};
@@ -335,7 +332,7 @@
 
 \begin{frame}{Fressregeln: Beispiel 2}
 	\begin{center}
-		\begin{tabular}{rcccl}
+		\begin{tabular}{ccccc}
 			\multicolumn{2}{c}{
 				\raisebox{-.5\height}{\includegraphics[height=1.25cm]{media/alligator_green}}
 			}
@@ -358,7 +355,7 @@
 
 \begin{frame}{Rätsel}
 	\begin{center}
-		\begin{tabular}{rccccl}
+		\begin{tabular}{cccccc}
 			\multicolumn{2}{c}{
 				\includegraphics[height=1.25cm]{media/alligator_blank}
 			}
