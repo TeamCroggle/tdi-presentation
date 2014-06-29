@@ -87,7 +87,8 @@
 							\includegraphics[height=1.25cm]{media/alligator_yellow}
 						};
 						\\
-						\hspace*{1.3cm}\includegraphics[height=0.75cm]{media/egg_yellow}
+						\hspace*{1.3cm}
+						\includegraphics[height=0.75cm]{media/egg_yellow}
 					}
 				\end{rotate}
 				\begin{tikzpicture}[remember picture,overlay]
@@ -214,7 +215,7 @@
 	\end{center}
 \end{frame}
 
-\begin{frame}{Ende}
+\begin{frame}{Fressregeln: Beispiel 1}
 	\begin{center}
 		\includegraphics[height=1.25cm]{media/alligator_red}
 		\\
@@ -248,9 +249,43 @@
 			\raisebox{-.5\height}{\includegraphics[height=.75cm]{media/egg_green}}
 			&
 			\raisebox{-.5\height}{\includegraphics[height=.75cm]{media/egg_green}}
-
 		\end{tabular}
 	\end{center}
+\end{frame}
+
+\begin{frame}{Fressregeln: Beispiel 2}
+	\begin{center}
+		\begin{picture}(180,80)
+			\put(0, -20){
+				\begin{turn}{7}
+					\tikz[remember picture] \node (a) {\includegraphics[height=1.25cm]{media/alligator_green}};
+				\end{turn}
+			}
+			\put(75, 7){
+				\begin{turn}{15}
+					\parbox{2cm}{
+						\tikz[remember picture] \node (b) {\includegraphics[height=1.25cm]{media/alligator_green}};
+						\\
+						\hspace*{0.4cm}
+						\includegraphics[height=.75cm]{media/egg_green}
+						\hspace*{0.3cm}
+						\includegraphics[height=.75cm]{media/egg_green}
+					}
+				\end{turn}
+			}
+		\end{picture}
+		\begin{tikzpicture}[remember picture,overlay]
+			\path (a.north) ++(1,1.5) node[draw,anchor=west,ellipse callout,fill=white!50,opacity=1., callout absolute pointer={(a.east)+(-0.2,1)}]  {YUMMY!};
+		\end{tikzpicture}
+		\begin{tikzpicture}[remember picture,overlay]
+			\path (b.east) ++(0,1.5) node[draw,anchor=west,ellipse callout,fill=white!50,opacity=1., callout absolute pointer={(b.east)+(0,1)}]  {AHHHH!};
+		\end{tikzpicture}
+	\end{center}
+	\vspace{.1cm}
+	\hspace{2.8cm}
+	\includegraphics[height=.75cm]{media/egg_green}
+	\hspace{.6cm}
+	\includegraphics[height=.75cm]{media/egg_green}
 \end{frame}
 
 
