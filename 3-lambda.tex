@@ -22,3 +22,39 @@
 		\end{tabular}
 	\end{center}
 \end{frame}
+
+\begin{frame}{Die $\beta$-Reduktion}
+	\begin{center}
+		\begin{tabular}{lccl}
+			&
+			\raisebox{-.5\height}{
+				\begin{tabular}{cc}
+					\tikz[remember picture] \node(a) {
+						\includegraphics[height=1.cm]{media/alligator_green}
+					};
+					&
+					\tikz[remember picture] \node(b) {
+						\includegraphics[height=.75cm]{media/egg_yellow}
+					};
+					\\
+					\includegraphics[height=.75cm]{media/egg_green}
+				\end{tabular}
+				\begin{tikzpicture}[remember picture,overlay]
+					\draw<2>[<-,thick] 
+						($(a.east)+(-0.5,0)$) to node[auto, swap] {}($(b.west)+(0.1,0)$);
+				\end{tikzpicture}
+			}
+			& $\Leftrightarrow$ &
+			$(\lambda x.x) y$
+			
+			\\[2cm]
+			\action<3->{
+				$\Rightarrow$
+				&
+				\visible<3->{\includegraphics[height=.75cm]{media/egg_yellow}}
+				& $\Leftrightarrow$ &
+				$y$
+			}
+		\end{tabular}
+	\end{center}
+\end{frame}
